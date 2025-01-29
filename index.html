@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYBOI CARTI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('bg.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .album-container {
+            max-width: 400px;
+            margin: auto;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .album-cover img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .tracklist {
+            list-style: none;
+            padding: 0;
+        }
+        .tracklist li {
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="album-container">
+        <h1>Album Title</h1>
+        <h2>PLAYBOI CARTI</h2>
+        <div class="album-cover">
+            <img src="album-cover.jpg" alt="Album Cover">
+        </div>
+        <ul class="tracklist">
+            <li>Track 1 <audio controls><source src="track1.mp3" type="audio/mpeg"></audio></li>
+            <li>Track 2 <audio controls><source src="track2.mp3" type="audio/mpeg"></audio></li>
+            <li>Track 3 <audio controls><source src="track3.mp3" type="audio/mpeg"></audio></li>
+        </ul>
+    </div>
+</body>
+</html>
